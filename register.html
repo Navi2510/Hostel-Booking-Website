@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container media">
+        <div class="myCard">
+            <div class="row py-5 m-auto">
+                <div class="col-md-6">
+                    <div class="myLeftctn">
+
+                        <form action="connect.php" method="post" class="myform text-center">
+                            <header>Create New Account</header>
+                            <div class="form-group">
+                                <i class="fa fa-user  px-2"></i>
+                                <input type="text" placeholder="First name" class="myinput" id="username" name="firstname" required>
+                            </div>
+                            <div class="form-group">
+                                <i class="fa fa-user  px-2"></i>
+                                <input type="text" placeholder="Last name" class="myinput" id="username" name="lastname" required>
+                            </div>
+                            <div class="form-group">
+                                <i class="fa fa-envelope  px-2"></i>
+                                <input type="email" placeholder="Email" class="myinput" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <i class="fa fa-phone  px-2"></i>
+                                <input type="number" placeholder="Phone Number" class="myinput" id="phno" name="phonenumber" required>
+                            </div>
+
+                            <div class="form-group">
+                                <i class="fa fa-lock  px-2"></i>
+                                <input type="password" placeholder="Password" class="myinput" id="password" name="password" required>
+                            </div>
+                            <div class="form-group">
+                                <i class="fa fa-lock  px-2"></i>
+                                <input type="password" placeholder="Confirm Password" class="myinput" id="password" name="confpass" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for=""><input id="check1" name="check1" type="checkbox" required><small>I read and agree to 
+                                    Terms and Conditions </small></input>
+                                <div class="invalid-feedback">You must check the box.</div>
+                                </label>
+                            </div>
+                            <input type="submit" class="btn btn-dark" value="Create Account">
+                            <p class="text-center my-5 ">Have already an account? <a href="login.html" class="btn btn-info btn-sm">Login</a></p>
+                        </form>
+                        <div>
+                            <a href="hostel.html">Go Back</a>
+                        </div>
+
+                        
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="myRightctn">
+                        <div class="box"><header>Hello World</header>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quas expedita magnam sint quos vitae doloremque odit voluptatem consequatur accusantium.</p>
+                            <a href="about.html"><input type="button" class="butt_out" value="Learn More"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
